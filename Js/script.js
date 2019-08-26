@@ -48,4 +48,33 @@ $(document).ready(function(){
   $("#safal").fadeTo("slow",1);
   $("#text4").fadeTo("slow",0);
 });
+$("#col-5").hover(function() {
+$("#mark").fadeTo("slow",0.3);
+$("#text5").fadeTo("slow",1);
+},function() {
+$("#mark").fadeTo("slow",1);
+$("#text5").fadeTo("slow",0);
+});
+$("#col-6").hover(function() {
+$("#homez").fadeTo("slow",0.3);
+$("#text6").fadeTo("slow",1);
+},function() {
+$("#homez").fadeTo("slow",1);
+$("#text6").fadeTo("slow",0);
+});
+$("#col-7").hover(function() {
+$("#buck").fadeTo("slow",0.3);
+$("#text7").fadeTo("slow",1);
+},function() {
+$("#buck").fadeTo("slow",1);
+$("#text7").fadeTo("slow",0);
+});
+
+$("#col-8").hover(function() {
+$("#bootstrap").fadeTo("slow",0.3);
+$("#text8").fadeTo("slow",1);
+},function() {
+$("#bootstrap").fadeTo("slow",1);
+$("#text8").fadeTo("slow",0);
+});
 });
