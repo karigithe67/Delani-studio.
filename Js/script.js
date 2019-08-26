@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $(".text").click(function(){
+  $(".design").click(function(){
 
     $(".img1").toggle();
     $(".par1").toggle();
@@ -34,4 +34,18 @@ $(document).ready(function(){
      $("#java").fadeTo("slow",1);
      $("#text2").fadeTo("slow",0);
    });
+      $("#col-3").hover(function() {
+     $("#naco").fadeTo("slow",0.3);
+     $("#text3").fadeTo("slow",1);
+   },function() {
+     $("#naco").fadeTo("slow",1);
+     $("#text3").fadeTo("slow",0);
+   });
+   $("#col-4").hover(function() {
+  $("#safal").fadeTo("slow",0.3);
+  $("#text4").fadeTo("slow",1);
+},function() {
+  $("#safal").fadeTo("slow",1);
+  $("#text4").fadeTo("slow",0);
+});
 });
