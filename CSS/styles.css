@@ -30,3 +30,7 @@ padding-top: 70px;
 .row{
   padding-top: 20px;
 }
+
+.par1, .par2, .par3{
+  display: none;
+}
