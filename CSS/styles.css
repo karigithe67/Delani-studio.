@@ -1,5 +1,5 @@
 .header{
-  /* background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true"); */
+  background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -15,7 +15,7 @@
   padding-bottom: 70px;
 }
 .services{
-  /* background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true"); */
+  background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -40,3 +40,23 @@ padding-top: 70px;
   position: absolute;
   opacity:0;
 }
+.contact {
+    padding: 100px 100px 100px 100px;
+    margin: 20px 20px 20px 20px;
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
+    color: white;
+    text-align: center;
+  }
+
+  ::placeholder {
+    color: white;
+  }
+  #name {
+    background: transparent;
+  }
+  #area {
+    background: transparent;
+  }
+  #email {
+    background: transparent;
+  }

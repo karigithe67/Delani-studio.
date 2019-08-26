@@ -77,4 +77,15 @@ $("#text8").fadeTo("slow",1);
 $("#bootstrap").fadeTo("slow",1);
 $("#text8").fadeTo("slow",0);
 });
+
+
+//Collect user input and display message
+$("form").submit(function(){
+  event.preventDefault();
+  var name = $("#name").val();
+  var email = $("#email").val();
+  var mesage = $("#area").val();
+  alert("Thank You "+name+". We have received your message");
+});
+
 });
