@@ -1,0 +1,16 @@
+.header{
+  background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+}
+.logo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.about{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
