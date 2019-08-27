@@ -2,20 +2,20 @@ $(document).ready(function(){
 
   $(".design").click(function(){
 
-    $(".img1").toggle();
-    $(".par1").toggle();
+    $(".img1").slideToggle(2400);
+    $(".par1").slideToggle(2400);
   });
 
   $(".type").click(function(){
 
-    $(".img2").toggle();
-    $(".par2").toggle();
+    $(".img2").slideToggle(2400);
+    $(".par2").slideToggle(2400);
   });
 
    $(".value").click(function(){
 
-     $(".img3").toggle();
-     $(".par3").toggle();
+     $(".img3").slideToggle(2400);
+     $(".par3").slideToggle(2400);
    })
 
    //Hower

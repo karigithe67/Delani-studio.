@@ -67,3 +67,7 @@ padding-top: 70px;
    justify-content: center;
    align-content: unset;
  }
+.footer{
+  text-align: center;
+  margin-top: 20px;
+}
