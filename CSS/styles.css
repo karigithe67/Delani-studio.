@@ -49,16 +49,28 @@ padding-top: 70px;
   }
 
   ::placeholder {
-    color: white;
+    color: black;
   }
   #name {
     background: transparent;
+    width: 400px;
+    height: 50px;
+    right:200px;
+    position: relative;
   }
   #area {
     background: transparent;
+    width: 400px;
+    right: 200px;
+    position: relative;
   }
   #email {
     background: transparent;
+    width: 400px;
+    height: 50px;
+    right: 200;
+    position: relative;
+
   }
  .media{
    margin-top: 70px;
