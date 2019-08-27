@@ -60,3 +60,10 @@ padding-top: 70px;
   #email {
     background: transparent;
   }
+ .media{
+   margin-top: 70px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-content: unset;
+ }
